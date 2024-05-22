@@ -1,5 +1,6 @@
 import './App.css';
 import Greetings from './components/Greetings';
+import OnButtonClickEventBasic from './components/OnButtonClickEventBasic';
 import OnChangeEvent from './components/OnChangeEvent';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Greetings />
       <OnChangeEvent />
+      <OnButtonClickEventBasic />
     </div>
   );
 }
